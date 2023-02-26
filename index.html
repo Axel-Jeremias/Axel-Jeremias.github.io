@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="icon" type="image/x-icon" href="/icon/favicon.ico">
+    <script src="js/function.js"></script>
+    <script src="https://kit.fontawesome.com/0b4a584c6c.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+</head>
+<body onload="nuevaPersona()">
+
+
+    <nav class="navbar navbar-expand-sm fixed-top" id="barra">   
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Secciones</a>
+            <div class="dropdown-menu position-absolute">
+                <a class="dropdown-item" href="#primer-bloque">Información Personal</a>
+                <a class="dropdown-item" href="#educacion">Educación</a>
+                <a class="dropdown-item" href="#experiencia">Experiencia</a>
+                <a class="dropdown-item" href="#habilidades">Habilidades</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+    <div class="container-fluid" id="try">
+        <div class="row" id="informacion">
+            <div class="col-12 col-lg-6 categoria" id="primer-bloque">
+                <picture>
+                    <img id="foto" src="" alt="Foto de perfil">
+                </picture>
+                <div id="info-nombre">
+                    <p id="nombre"></p>
+                    <p id="trabajo"></p>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6" id="personal2">
+                <div id="personal">
+                    <h2>Información Personal</h2>
+                    <ul id="contacto">
+                        <li id="telefono"><i class="fa-solid fa-phone fa-lg"></i><span></span></li>
+                        <li id="mail"><i class="fa-solid fa-envelope fa-lg"></i><span></span></li>
+                        <li id="direccion"><i class="fa-solid fa-house fa-lg"></i><span></span></li>
+                    </ul>
+               </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 categoria" id="educacion">
+                <h2>Educación</h2>
+                <div class="trabajos_habilidades">
+                    <div class="trabajos">
+                        <div class="data">
+                            <div class="empresa">
+                                <p class="institucion">Colegio Inmaculada Concepción de Aragón</p>
+                                <p class="duracion">2003 - 2009</p>
+                            </div>
+                            <p class="data_empresa">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique, ipsum a feugiat maximus, justo eros bibendum odio, a efficitur ex purus id sapien. Proin libero felis, sagittis eget auctor in, venenatis sit amet justo. Curabitur ornare egestas commodo. Praesent in dolor augue. Vestibulum ultrices mi a accumsan mollis.</p>
+                         </div>
+                    </div>
+                    <div class="trabajos">
+                        <div class="data">
+                            <div class="empresa">
+                                <p class="institucion">Universidad Autónoma de Madrid</p>
+                                <p class="duracion">2010 - 2014</p>
+                            </div>
+                            <p class="data_empresa">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique, ipsum a feugiat maximus, justo eros bibendum odio, a efficitur ex purus id sapien. Proin libero felis, sagittis eget auctor in, venenatis sit amet justo. Curabitur ornare egestas commodo. Praesent in dolor augue. Vestibulum ultrices mi a accumsan mollis.</p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 categoria" id="experiencia">
+                <h2>Experiencia Laboral</h2>
+                <div class="trabajos_habilidades">
+                    <div class="trabajos">
+                        <h3 class="subtitulos">Idiomas</h3>
+                        <div class="data">
+                            <div class="empresa">
+                                <p class="institucion">Test</p>
+                                <p class="duracion">Test</p>
+                            </div>
+                            <p class="data_empresa">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique, ipsum a feugiat maximus, justo eros bibendum odio, a efficitur ex purus id sapien. Proin libero felis, sagittis eget auctor in, venenatis sit amet justo. Curabitur ornare egestas commodo. Praesent in dolor augue. Vestibulum ultrices mi a accumsan mollis.</p>
+                         </div>
+                    </div>
+                    <div class="trabajos">
+                        <h3 class="subtitulos">Idiomas</h3>
+                        <div class="data">
+                            <div class="empresa">
+                                <p class="institucion">Test</p>
+                                <p class="duracion">Test</p>
+                            </div>
+                            <p class="data_empresa">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique, ipsum a feugiat maximus, justo eros bibendum odio, a efficitur ex purus id sapien. Proin libero felis, sagittis eget auctor in, venenatis sit amet justo. Curabitur ornare egestas commodo. Praesent in dolor augue. Vestibulum ultrices mi a accumsan mollis.</p>
+                         </div>
+                    </div>
+                </div>
+                <div class="trabajos_habilidades">
+                    <div class="trabajos">
+                        <h3 class="subtitulos">Idiomas</h3>
+                        <div class="data">
+                            <div class="empresa">
+                                <p class="institucion">Test</p>
+                                <p class="duracion">Test</p>
+                            </div>
+                            <p class="data_empresa">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique, ipsum a feugiat maximus, justo eros bibendum odio, a efficitur ex purus id sapien. Proin libero felis, sagittis eget auctor in, venenatis sit amet justo. Curabitur ornare egestas commodo. Praesent in dolor augue. Vestibulum ultrices mi a accumsan mollis.</p>
+                         </div>
+                    </div>
+                    <div class="trabajos">
+                        <h3 class="subtitulos">Idiomas</h3>
+                        <div class="data">
+                            <div class="empresa">
+                                <p class="institucion">Test</p>
+                                <p class="duracion">Test</p>
+                            </div>
+                            <p class="data_empresa">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique, ipsum a feugiat maximus, justo eros bibendum odio, a efficitur ex purus id sapien. Proin libero felis, sagittis eget auctor in, venenatis sit amet justo. Curabitur ornare egestas commodo. Praesent in dolor augue. Vestibulum ultrices mi a accumsan mollis.</p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 categoria" id="habilidades">
+                <h2>Habilidades</h2>
+                <div class="trabajos_habilidades">
+                    <div class="trabajos">
+                        <h3 class="subtitulos">Idiomas</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique, ipsum a feugiat maximus, justo eros bibendum odio, a efficitur ex purus id sapien. Proin libero felis, sagittis eget auctor in, venenatis sit amet justo. Curabitur ornare egestas commodo. Praesent in dolor augue. Vestibulum ultrices mi a accumsan mollis.</p>
+                    </div>
+                    <div class="trabajos">
+                        <h3 class="subtitulos">Idiomas</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tristique, ipsum a feugiat maximus, justo eros bibendum odio, a efficitur ex purus id sapien. Proin libero felis, sagittis eget auctor in, venenatis sit amet justo. Curabitur ornare egestas commodo. Praesent in dolor augue. Vestibulum ultrices mi a accumsan mollis.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
