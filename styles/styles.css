@@ -130,12 +130,11 @@ h2 {
 
 /* Segundo bloque, experiencia laboral */
 
-.trabajos {
+.subcategorias {
     flex-basis: 48%;
-    text-align: justify;
 }
 
-.trabajos p, #educacion p, #contacto {
+.subcategorias p, #educacion p, #contacto {
     margin-left: 10px;
 }
 
@@ -146,7 +145,6 @@ h2 {
 .empresa {
     margin-right: 20px;
     flex-basis: 30%;
-    text-align: left;
 }
 
 .empresa p {
@@ -163,7 +161,13 @@ h2 {
     color: #686868;
 }
 
-.data_empresa {
+.data-carrera {
+    font-size: 17px;
+    font-weight: bold;
+    color: #7e7e7e;
+}
+
+.data_empresa, .data-carrera {
     flex-basis: 70%;
 }
 
