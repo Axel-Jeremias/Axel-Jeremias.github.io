@@ -5,7 +5,7 @@ async function nuevaPersona() {
 
     document.getElementById("nombre").innerHTML = `${randomUser.name.first} ${randomUser.name.last}`;
     document.getElementById("foto").src = randomUser.picture.large;
-    document.getElementById("trabajo").innerHTML = randomUser.gender == "male" ? "Diseñador Grafico" : "Diseñadora Grafica";
+    document.getElementById("trabajo").innerHTML = randomUser.gender == "male" ? "Diseñador Gráfico" : "Diseñadora Gráfica";
     document.querySelector("#telefono span").innerText = randomUser.cell;
     document.querySelector("#mail span").innerText = randomUser.email;
     document.querySelector("#direccion span").innerText = `${randomUser.location.street.name} ${randomUser.location.street.number}, ${randomUser.location.state}, ${randomUser.location.country}`;
